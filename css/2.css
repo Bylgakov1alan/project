@@ -1,0 +1,64 @@
+/* font-size, width, neight, pixels */
+h1{
+ font-size: 60px;
+ width: 200px;
+ height: 300px;
+ background: blue;
+}
+/* percent values -relative */
+     /* 
+     em - relative depends on parent
+      1 em = 16px default browser style;
+      1 em = base value 
+      */
+
+      .one_div {
+       width: 400px;
+       height: 200px;
+       background: blue;
+      }
+
+
+      .two_div {
+       width: 100%;
+       height: 50%;
+       background: red;
+
+      }
+
+      html {
+       font-size: 32px;
+      }
+
+      .relative {
+       font-size: 1.5rem;
+      }
+
+      .absolute {
+       font-size: 64px;
+      }
+
+      div {
+       font-size: 10px;
+      }
+
+               /* vh -height - percent of the screen
+                  vw -widht - percent of the screen
+               */
+               .one {
+                width: 50vw;
+                height: 50vh;
+                background: red;
+               }
+
+               .two {
+                width: 100vw;
+                height: 100vh;
+                background: blue;
+               }
+
+               * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+               }
