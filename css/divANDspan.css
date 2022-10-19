@@ -1,0 +1,17 @@
+/* DIV span */
+
+.green {
+ color: green;
+}
+
+.red {
+ color: red;
+ background: blue;
+}
+div{
+ color: red;
+ background: yellow;
+}
+span{
+ text-transform: uppercase;
+}
