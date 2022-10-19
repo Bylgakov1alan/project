@@ -1,0 +1,27 @@
+/* default browser styles and google devTools */
+h2{
+ color: red;
+ font-size: 60px;
+}
+
+/* calc()
+perform math operations + - *
+mix and match values */
+*{
+ margin: 0;
+}
+.one{
+ height: 50px;
+  color: white;
+  background: blue;
+  font-size: 3rem;
+}
+.two{
+ background: red;
+ min-height: calc(10vh - 100px);
+}
+
+
+
+
+
