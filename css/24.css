@@ -1,0 +1,43 @@
+/* css variables aka custom properies
+hold a value and reuse it
+--varName:value 
+property:var(--var name)
+scope
+:root{} === global
+element === local
+any property */
+.heading{
+ color: red;
+}
+.text{
+ color: green;
+}
+.main-text{
+ color: blue;
+}
+.second-heding{
+ color: lemonchiffon;
+}
+
+:root{
+ --primaryColor: red;
+ --secondarycolor: all 0.4 linear;
+}
+.heading{
+ color: var(--primaryColor);
+}
+.second-heding{
+ color: var(--primaryColor);
+}
+.second-heding:hover{
+ color: var(--primaryColor);
+}
+div{
+ --primaryRed: red;
+}
+.main-text{
+ color: var(--primaryRed)
+}
+.third-heading{
+color: antiquewhite;
+}
