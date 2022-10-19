@@ -1,0 +1,50 @@
+/* media queries
+responsive design
+style elements on different screen sizes
+min-width ---starting from
+max-width --- up to
+mobile first */
+body{
+ background-color: yellow;
+}
+.bunner{
+ background-color: blue;
+}
+.h1{
+ color: white;
+ text-align: center;
+ text-decoration: underline;
+ text-transform: capitalize;
+}
+@media screen and (mix-width:576px) {
+ body{
+  background: red;
+ }
+ .bunner{
+  background: green;
+ }
+ h1{
+  color: black;
+  font-size: 60px;
+ }
+}
+@media screen and (max-width:768px) {
+ body {
+  background: khaki;
+ }
+
+ .bunner {
+  background: blue;
+  border-radius: 20px;
+ }
+
+ h1 {
+  color: yellow;
+  font-size: 60px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+}
+
+
+
