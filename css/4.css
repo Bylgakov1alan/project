@@ -1,0 +1,32 @@
+/* text-aligin
+text-indent */
+/* font-size font-family */
+/* serif, sans-serif, cursive, fantasy, monospace */
+body{
+font-family: 'roboto', sans-serif;
+font-style: italic;
+text-align: center;
+}
+.one{
+font-family: 'Nabla', cursive;
+text-align: left;
+}
+.ran{
+font-weight: bold;
+font-style: italic;
+text-align: end;
+}
+.ranov{
+ text-indent: 50px;
+ font-weight: bolder;
+ font-style: oblique;
+}
+
+/* font-style
+font-weight */ 
+/* <style>@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+</style>
+
+
+
+
