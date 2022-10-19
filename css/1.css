@@ -1,0 +1,33 @@
+/* color oroperties */
+/* color background-color */
+#one{
+ color: #a3aa;
+ background-color: aliceblue;
+}
+#two{
+ color: #cc45cc;
+ background: yellow;
+}
+#three{
+ color: #545ff0;
+ background: green;
+}
+#four{
+ color: #ff999f;
+ background: rgba(0, 0, 0, 0.5);
+}
+#five {
+ color: #bbaaab;
+ background: rgba(0, 0, 0, 0.25);
+}
+#six {
+ color: #5fa;
+ background: rgba(0, 0, 0, 0);
+}
+#seven {
+ color: #123fa0;
+ background: rgba(0, 0, 0, 1);
+}
+body{
+ background: rgba(10, 200, 200, 0.56);
+}
