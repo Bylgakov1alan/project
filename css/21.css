@@ -1,0 +1,61 @@
+/* transform : translate(), scale, rotate, skew */
+div{
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+}
+.one{
+ background: red;
+ transform: scaleX(0.5);
+ /* transform: scaleY(0.5);
+ transform: scale(20); */
+}
+.two {
+ background: green;
+ transform: rotateZ(135deg);
+  /* transform: rotate(13deg);
+   transform: rotateX(35deg); */
+}
+.three {
+ background: blue;
+ transform: skewY(-20deg);
+ transform: skew(40deg, -200deg);
+ transform: skewX(45deg);
+}
+.four{
+ background: blue;
+  /* transform: translateX(75px); */
+  transform: translate(200, 300);
+  /* transform: translateY(56px); */
+}
+
+
+
+
+
+/* transition:change over time
+transition-property:
+transition-duration:
+ */
+div:hover{
+  background: coral;
+}
+.five{
+  background: gray;
+  transition-property: background 3s 5s;
+  transition-duration: 4s;
+}
+.six{
+  background: fuchsia;
+  transition: all 4s 5s;
+
+}
+.seven {
+  background: yellow;
+  transition-property: background;
+  transition-duration: 20s, 2s;
+}
+.five:hover{
+  border-radius: 50%;
+  background: floralwhite;
+}
