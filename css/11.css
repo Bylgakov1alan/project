@@ -1,0 +1,89 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+div{
+ height: 500px;
+ color: blue;
+ height: 200px;
+/* min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center; 
+*/
+text-align: center;
+}
+.big-img{
+ background-image: url("../photo/6.jpg");
+ background-repeat: round;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.small-img {
+ border: 2px solid red;
+ background-image: url("../photo/9.jpg");
+ background-repeat:repeat;
+ background-repeat: repeat-x;
+ background-repeat: repeat-y;
+ background-repeat: space;
+ background-repeat: round;
+ background-attachment: fixed;
+}
+.folder-img {
+ background-image: url("../photo/8.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ /* background-position: left;
+ background-position: right;
+ background-position: top;
+ background-position: bottom; 
+ background-position: 20% 0;*/
+  background-attachment: fixed;
+}
+/* last rule order */
+/* background-size */
+/*  background-position
+background-attachment*/
+
+
+/* body{
+ display: inline;
+} */
+
+
+
+
+
+
+/* div {
+ width: 150px;
+ height: 150px;
+ display: flex;
+ margin: 6px
+} */
+
+.one {
+ background: linear-gradient(red, green);
+}
+
+.two {
+ background: linear-gradient(to top, red, green, black, blue);
+}
+
+.three {
+ background: linear-gradient(150deg, red, green, black, blue);
+}
+
+.four {
+ background: linear-gradient(to left, red, green, black, blue);
+}
+
+.five {
+ background: linear-gradient(rgba(0, 0, 0.3), rgba(0, 0, 244));
+}
+
+.six {
+ background: linear-gradient(to left rgba(0, 0, 0.3), rgba(0, 0, 244));
+}
